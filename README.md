@@ -71,10 +71,14 @@ See [`Apt_Get_Install.txt`](#apt-get-install) for required packages.
 Run the following commands on your Raspberry Pi terminal:
 
 ```bash
-sudo apt update
-sudo apt install -y libcamera-dev python3-libcamera python3-kms++ libcap-dev
-sudo apt-get install -y libcap2 libpcap0.8
-sudo apt install -y ffmpeg libkms++-dev libfmt-dev libdrm-dev libgtk2.0-dev pkg-config
+sudo apt install libcamera-dev
+sudo apt install -y python3-libcamera python3-kms++ libcap-dev
+sudo apt-get install libcap2
+sudo apt-get install libpcap0.8
+sudo apt install -y ffmpeg
+sudo apt install -y libkms++-dev libfmt-dev libdrm-dev
+sudo apt install -y libcamera-dev libgtk2.0-dev pkg-config
+
 ```
 
 You can also refer to `Apt_Get_Install.txt` included in this repo.
