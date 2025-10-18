@@ -96,11 +96,16 @@ pip3 install -r requirements.txt
 **requirements.txt example:**
 
 ```
-opencv-python
-numpy
-RPi.GPIO
 ultralytics
+opencv-python
+RPi.GPIO
 picamera2
+tflite-runtime
+rpi-kms
+rpi-libcamera
+matplotlib
+Pillow
+simplecv
 ```
 
 ---
