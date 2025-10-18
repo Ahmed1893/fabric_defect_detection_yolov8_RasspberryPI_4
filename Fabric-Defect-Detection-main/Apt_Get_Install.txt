@@ -1,0 +1,4 @@
+sudo apt update
+sudo apt install -y libcamera-dev python3-libcamera python3-kms++ libcap-dev
+sudo apt-get install -y libcap2 libpcap0.8
+sudo apt install -y ffmpeg libkms++-dev libfmt-dev libdrm-dev libgtk2.0-dev pkg-config

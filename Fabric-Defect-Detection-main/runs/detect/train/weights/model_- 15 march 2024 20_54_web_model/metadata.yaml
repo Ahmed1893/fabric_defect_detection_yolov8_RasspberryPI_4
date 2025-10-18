@@ -1,0 +1,14 @@
+description: Ultralytics best model trained on /content/datasets/defect_clothes.v2i.yolov8/data.yaml
+author: Ultralytics
+license: AGPL-3.0 https://ultralytics.com/license
+date: '2024-03-15T20:31:12.830867'
+version: 8.1.2
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Good
+  1: defect
